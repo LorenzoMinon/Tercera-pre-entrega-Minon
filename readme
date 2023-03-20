@@ -1,0 +1,19 @@
+Instructivo para entender el programa:
+
+Corremos el programa desde el manage.py
+
+Nos encontramos con el Proyecto en si y a su vez la aplicación que sería AppCoder
+Dentro de ProyectoCoder, esta el proyecto general y lo unico que tenemos importante y que se establece solo ahi
+es la ruta de admin.
+
+Dentro de la APP, tenemos los templates, cuales usaremos para mostrar en cada página y en cada formularuio
+Si bien tenemos un template padre.html, y replicado en otros templates, no usamos la herencia ya que cada indice
+se redirecciona directamente a cada formulario
+
+Lo primero que se creó fueron los modelos para despues poder establecer la base de datos
+Se establecen urls vinculadas con cada vista. Los forms estan hechos con los datos de los modelos.
+
+No tenemos un indice de busqueda en la página principal y tenemos que acceder mediante la url: 
+http://127.0.0.1:8000/AppCoder/busquedaCamada
+
+superuser: admin:admin
